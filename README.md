@@ -14,20 +14,31 @@ Install matplotlib by running this command
 pip3 install matplotlib
 ```
 Download main.py at [this link](https://github.com/tfulanchan/CPIS-222-project/blob/main/main.py)
-In Powershell or Command Prompt, navigate to the directory where you downloaded the main.py file. You can use file explorer to navigate to the directory. Then right-click your mouse and select “Open in Terminal”. 
+In Powershell or Command Prompt, navigate to the directory where you downloaded the main.py file. You can use file explorer to navigate to the directory. Then right-click your mouse and select “Open in Terminal”. You can also use Powershell as Administrator
 
-It is preferable to use Powershell as Administrator
-
-Run this command in Command Prompt or Powershell:
+For simulation of FIFO and LRU algorithms, run this command in Command Prompt or Powershell:
 ```
-python main.py
+python simulation.py
+```
+You will be prompted to "Enter number of pages: "
+You will then be prompted to "Enter page reference string generation method (manual/uniform/gaussian): " You can only type “manual” or “uniform” or “gaussian”.
+You will then be prompted to "Enter number of available frames: "
+You will then be prompted to "Enter page replacement algorithm (LRU/FIFO): "
+
+Sample input & output:
+![3 pages. Gaussian.](https://github.com/tfulanchan/CPIS-222-project/blob/main/sample.png)
+
+
+For graphs of comparison between FIFO and LRU, run this command in Command Prompt or Powershell:
+```
+python comparisonGraphs.py
 ```
 You will be prompted to “Enter number of pages:”. Enter number of pages of your choice.
 You will then be prompted to “Enter page reference string generation method (manual/uniform/gaussian):”. You can only type “manual” or “uniform” or “gaussian”
 
 Two graphs will be displayed if the input is correct.
 
-Sample:
+Sample input & output:
 Enter number of pages: 3
 Enter page reference string generation method (manual/uniform/gaussian): gaussian
 ![3 pages. Gaussian.](https://github.com/tfulanchan/CPIS-222-project/blob/main/sample.png)
