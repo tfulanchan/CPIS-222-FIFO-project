@@ -13,7 +13,7 @@ Install matplotlib by running this command
 ```
 pip3 install matplotlib
 ```
-Download main.py at [this link](https://pages.github.com/)
+Download main.py at [this link](https://github.com/tfulanchan/CPIS-222-project/blob/main/main.py)
 In Powershell or Command Prompt, navigate to the directory where you downloaded the main.py file. You can use file explorer to navigate to the directory. Then right-click your mouse and select “Open in Terminal”. 
 
 It is preferable to use Powershell as Administrator
