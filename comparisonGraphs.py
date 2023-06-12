@@ -131,10 +131,10 @@ method = input("Enter page reference string generation method (manual/uniform/ga
 
 # Set range of NJP and NF
 # Create a range of numbers from 2 to 20
-# Assigne the range of numbers to the variable njp_range
+# Assign the range of numbers to the variable njp_range
 njp_range = range(2, 21)
 # Create a range of numbers from 2 to 10
-# Assigne the range of numbers to the variable nf_range
+# Assign the range of numbers to the variable nf_range
 nf_range = range(2, 11)
 
 # Simulate page replacement algorithm for multiple values of NF and NJP
