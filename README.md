@@ -27,7 +27,9 @@ You will then be prompted to "Enter number of available frames: "
 You will then be prompted to "Enter page replacement algorithm (LRU/FIFO): "
 
 Sample input & output:
+
 ![7 pages, gaussian, 4 frames, FIFO](https://github.com/tfulanchan/CPIS-222-project/blob/main/output_7pages_gaussian_4frames_FIFO.jpg)
+
 ![7 pages, uniform, 4 frames, LRU](https://github.com/tfulanchan/CPIS-222-project/blob/main/output_7pages_uniform_4frames_LRU.jpg)
 
 
