@@ -26,3 +26,8 @@ You will be prompted to “Enter number of pages:”. Enter number of pages of y
 You will then be prompted to “Enter page reference string generation method (manual/uniform/gaussian):”. You can only type “manual” or “uniform” or “gaussian”
 
 Two graphs will be displayed if the input is correct.
+
+Sample:
+Enter number of pages: 3
+Enter page reference string generation method (manual/uniform/gaussian): gaussian
+![3 pages. Gaussian.](https://github.com/tfulanchan/CPIS-222-project/blob/main/sample.png)
