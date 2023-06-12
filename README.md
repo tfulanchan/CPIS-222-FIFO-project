@@ -16,6 +16,7 @@ pip3 install matplotlib
 Download main.py at [this link](https://github.com/tfulanchan/CPIS-222-project/blob/main/main.py)
 In Powershell or Command Prompt, navigate to the directory where you downloaded the main.py file. You can use file explorer to navigate to the directory. Then right-click your mouse and select “Open in Terminal”. You can also use Powershell as Administrator
 
+
 For simulation of FIFO and LRU algorithms, run this command in Command Prompt or Powershell:
 ```
 python simulation.py
@@ -26,7 +27,9 @@ You will then be prompted to "Enter number of available frames: "
 You will then be prompted to "Enter page replacement algorithm (LRU/FIFO): "
 
 Sample input & output:
-![3 pages. Gaussian.](https://github.com/tfulanchan/CPIS-222-project/blob/main/sample.png)
+![7 pages, gaussian, 4 frames, FIFO](https://github.com/tfulanchan/CPIS-222-project/blob/main/output_7pages_gaussian_4frames_FIFO.jpg)
+![7 pages, uniform, 4 frames, LRU](https://github.com/tfulanchan/CPIS-222-project/blob/main/output_7pages_uniform_4frames_LRU.jpg)
+
 
 
 For graphs of comparison between FIFO and LRU, run this command in Command Prompt or Powershell:
@@ -39,6 +42,5 @@ You will then be prompted to “Enter page reference string generation method (m
 Two graphs will be displayed if the input is correct.
 
 Sample input & output:
-Enter number of pages: 3
-Enter page reference string generation method (manual/uniform/gaussian): gaussian
-![3 pages. Gaussian.](https://github.com/tfulanchan/CPIS-222-project/blob/main/sample.png)
+![3 pages. Uniform.](https://github.com/tfulanchan/CPIS-222-project/blob/main/output_comparisonGraphs_3pages_uniform.jpg
+)
